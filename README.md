@@ -121,27 +121,45 @@ comment:
 5-3-2. 다음과 같이 형식에 맞춰서 코드를 작성해준다.
 
 {% if page.comments %}
+
 <div id="disqus_thread"></div>
+
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
+    
     let Page_URL = "{{site.url}}{{page.url}}"
+    
     let PAGE_IDENTIFIER = "{{page.url}}"
+    
     var disqus_config = function () {
+    
     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    
     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    
     };
+    
     */
+    
     (function() { // DON'T EDIT BELOW THIS LINE
+    
     var d = document, s = d.createElement('script');
+    
     s.src = 'https://kimdonguk-kmu.disqus.com/embed.js';
+    
     s.setAttribute('data-timestamp', +new Date());
+    
     (d.head || d.body).appendChild(s);
+    
     })();
+
 </script>
+
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 {% endif %}
   
 {% if page.comments %}와 {% endif %}는 if문과 같은 역할을 해준다. 이것을 작성하지 않으면 모든 포스트에 댓글 기능이 활성화된다.
