@@ -24,7 +24,6 @@
 
 3. 블로그가 생성되면 _posts 칸에 포스트를 생성한다.
 
-###
 ---
 layout: post
 title: "제목"
@@ -36,7 +35,8 @@ background: '그림 파일' (이것은 추후에 설명할 블로그 테마와�
 <h2> 제목 </h2?
 
 <p> 글 </p>
-###
+  
+
 3-1.이 형식으로 포스트를 작성하여 YYYY-mm-dd-"파일이름".md로 저장한다.
 
 3-2.그 다음 git status로 확인하고, git add, git commit, git push를 통해 github 원격 저장소에 지킬을 통해 다운받은 파일들을 저장한다.
