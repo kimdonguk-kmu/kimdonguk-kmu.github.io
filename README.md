@@ -121,7 +121,7 @@ comment:
 5-3-2. 다음과 같이 형식에 맞춰서 코드를 작성해준다.
 
 {% if page.comments %}
-  <h2><h2>Comments</h2></h2>
+<<h2>Comments</h2>>
 <div id="disqus_thread"></div>
 <script>
     /**
