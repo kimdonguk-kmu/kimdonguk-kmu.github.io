@@ -6,17 +6,49 @@ date: 2021-12-11 23:45:13 -0400
 background: '/img/bg-index.jpg'
 ---
 
-<h2 class="section-heading">내가 배운 것</h2>
+<h2 class="section-heading">1.git에 관하여</h2>
 
-<p>git: git을 통해 파일들을 원격으로 관리할 수 있다
+<p>git은 분산 버전 관리 시스템이다.</p>
 
-<p>git status: 현재 상태를 확인하는 명령어
+<p>파일들을 원격으로 저장 혹은 관리가 가능하다.</p>
+  
+<p>또한 여러명이 한 가지의 프로그램 혹은 파일을 관리할 수 있어 협업에도 용이하다.</p>
+ 
+<h3>장점</h3>
+  
+<p> 작업 속도가 빨라진다.</p>
+  
+<p> 서버 장애에도 빠른 대처 또는 작업이 가능하다.</p>
+  
+<p> 원격으로 관리가 가능해 온라인, 오프라인 관리가 모두 가능하다.</p>
+  
+<h3>단점</h3>
+  
+<p>기존 형상 관리 시스템에 비해 덜 직관적이다<p/>
 
-<p>git add <파일이름>: 파일을 커밋할 상태에 추가한다
+<p>한 프로젝트에 대해 전체적인 관리만을 허용하여 일부만을 브랜칭 또는 클론할 수 없다.</p>
 
-<p>git commit -m "커밋 내용": 커밋 내용으로 커밋한다
+<p>커밋에 대한 ID가 직관적이지 않고 어려워 커밋 관리에 복잡함이 있다.</p>
+  
+<h2 class="section-heading">2.git과 github를 통한 버전관리 시스템</h2>
 
-<p>git push origin main: 현재 커밋 상태로 원격 github에 저장한다
+<p>git init: git을 통해 파일들을 원격으로 관리할 수 있다</p>
 
-<p>bundle exec jekyll serve: 이 명령어를 통해 jekyll 블로그에 접속할 수 있다.
+<p>git status: 현재 상태를 확인하는 명령어</p>
+
+<p>git add <파일이름>: 파일을 커밋할 상태에 추가한다</p>
+
+<p>git commit -m "커밋 내용": 커밋 내용으로 커밋한다</p>
+
+<p>git push origin main: 현재 커밋 상태로 원격 github에 저장한다</p>
+
+<h2 class="section-heading">3.jekyll을 통한 블로그 만들기</h2>
+
+<p>bundle exec jekyll serve: 이 명령어를 통해 jekyll 블로그에 접속할 수 있다.</p>
+
+<p>블로그를 생성하면 여러가지 파일이 나온다.</p>
+
+<p>그 중 _config.yml파일은 블로그에서 가장 중요한 테마나 블로그 제목 등을 담당하고 있는 파일이다.</p>
+
+<p>테마 적용 방법은 의존성을 감안해 다른 사람들이 만든 테마의 파일을 다운받거나 github에서 fork를 통해 새로 만들수도 있다.</p>
 
