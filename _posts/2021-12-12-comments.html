@@ -1,0 +1,36 @@
+---
+layout: post
+title: "댓글 기능 적용"
+subtitle: "Disqus를 통한 댓글 기능 활성화"
+date: 2021-12-12 18:46:50 -0400
+background: '/img/posts/05.jpg'
+comments: true
+---
+
+<h2 class="section-heading">Disqus를 통한 댓글 기능 활성화</h2>
+
+<h3>이번에는 블로그의 댓글 기능을 활성화해보았다.</h3>
+
+<p>1. disqus에 가입한다.</p>
+
+<p>2. disqus 절차에 따라 행동한다</p>
+
+<p>3. _confug.yml 파일에 comments와 관련된 key와 value를 추가한다.</p>
+  
+<p>4. disqus 홈페이지에서 Universal Code를 복사한다</p>
+  
+<p>5. 복사한 코드를 _layouts/post.html에 반영한다.</p>
+  
+<p>5-1. _layouts/post.html의 맨 밑에 복사한 코드를 붙여넣기 한다.</p>
+
+<p>5-2. 복사한 코드 위에는 {% if page.comments %}를 작성한다.</p>
+
+<p>5-3. 마찬가지로 복사한 코드 아래에는 {% endif %}를 작성한다.</p>
+
+<p>5-4. {% if page.comments %} 아래에 <h2>Comments</h2>를 작성한다.</p>
+
+<p>5-5. PAGE_URL과 PAGE_IDENTIFIER를 설정한다.</p>
+
+<p>6. 그 다음 댓글기능을 추가하고 싶은 곳에 comments: true를 작성한다.</p>
+
+<h1>댓글기능 완성!.</h1>
