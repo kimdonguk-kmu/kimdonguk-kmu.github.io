@@ -1,4 +1,4 @@
-#1. git을 통한 원격 저장소 github 배우기
+1. git을 통한 원격 저장소 github 배우기
 
 1-1.먼저 로컬 저장소에서 ruby와 jekyll을 다운받는다.
 
