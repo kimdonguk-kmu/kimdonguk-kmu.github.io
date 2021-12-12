@@ -1,3 +1,4 @@
+
 1. git을 통한 원격 저장소 github 배우기
 
 1-1. 먼저 index.html을 vi 에디터를 통해 작성한다.
@@ -79,11 +80,17 @@ html형식을 사용해야 해서 살짝 당황했지만 다행히 글자 크기
 
 4-4-3 블로그의 post의 형식은 이러하다.  
 ---
+
 layout: post
+
 title: "제목"
+
 subtitle: "소제목"
+
 date: 날짜
+
 background: '그림 파일' (이것은 추후에 설명할 블로그 테마와도 관련있음)
+
 ---
   
 내가 찾은 블로그의 기본 형식을 이렇게 써져있었는데, 이것 중 background는 포스트 등의 배경화면을 설정해주는 문구이다.
@@ -146,12 +153,19 @@ let PAGE_IDENTIFIER = "{{page.url}}"
 그 다음 post의 형식을 적는 곳에서 아래와 같은 문구를 적어준다.
   
 ---
+
 layout: post
+
 title: "댓글 기능 적용"
+
 subtitle: "Disqus를 통한 댓글 기능 활성화"
+
 date: 2021-12-12 20:23:40 -0400
+
 background: '/img/posts/05.jpg'
+
 comments: true
+
 ---
   
 위의 문구 중 comments: true를 통하여 이 포스트의 댓글을 활성화시켜준다.
